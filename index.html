@@ -7,11 +7,27 @@
 </head>
 
 <body>
-	<div id="app"></div>
+	<div id="app">
 
-	<h1>Dh's Webpage</h1>
+	<h1>{{title}}</h1>
+	</div>
 	<input></input>
 	<button> Submit</button>
+	<br>
+	<ol>
+		<li>No. 1</li>
+		<li>No. 2</li>
+	</ol>
+<script src="https://unpkg.com/vue">
+</script>
+<script>
+	 var app = new Vue({
+		  el: '#app', 
+			data: {title: "BT3103"}
+	 })
+
+</script>
+
 </body>
 
 </html>
